@@ -1,0 +1,27 @@
+{
+  "generator_version": "1",
+  "role": "probe-filler",
+  "seed": 900002,
+  "size_class": "small",
+  "secret_count": 2,
+  "secrets": [
+    {
+      "detector": "sendgrid",
+      "branch": "main",
+      "path": "app/mailer.py",
+      "line": 15,
+      "end_line": 15,
+      "commit": "bc17b8ba1c7c6d61a3601bad7925d35365fddd00",
+      "shared": false
+    },
+    {
+      "detector": "postgres_uri",
+      "branch": "main",
+      "path": "src/repository_1.py",
+      "line": 18,
+      "end_line": 18,
+      "commit": "680c91012e36c0f9c6b9d26c6df56d4088972ed9",
+      "shared": false
+    }
+  ]
+}
